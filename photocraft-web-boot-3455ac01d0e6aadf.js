@@ -65,7 +65,7 @@ function __wbg_get_imports() {
             const ret = arg0.createElement(getStringFromWasm0(arg1, arg2));
             return ret;
         }, arguments); },
-        __wbg_default_8830494e956edd5a: function() { return handleError(function (arg0) {
+        __wbg_default_a8ead5773bca6899: function() { return handleError(function (arg0) {
             const ret = _default(arg0);
             return ret;
         }, arguments); },
@@ -148,10 +148,6 @@ function __wbg_get_imports() {
             const ret = arg0.length;
             return ret;
         },
-        __wbg_new_1719f9a3b31086b7: function() { return handleError(function (arg0, arg1) {
-            const ret = new DecompressionStream(getStringFromWasm0(arg0, arg1));
-            return ret;
-        }, arguments); },
         __wbg_new_1dbf7428bba60a42: function(arg0) {
             const ret = new Uint8Array(arg0);
             return ret;
@@ -180,6 +176,10 @@ function __wbg_get_imports() {
         },
         __wbg_new_661230f001cf2087: function() { return handleError(function () {
             const ret = new TransformStream();
+            return ret;
+        }, arguments); },
+        __wbg_new_6680ae0463d45384: function() { return handleError(function (arg0, arg1) {
+            const ret = new DecompressionStream(getStringFromWasm0(arg0, arg1));
             return ret;
         }, arguments); },
         __wbg_new_83ca405eae412a62: function() { return handleError(function () {
@@ -228,7 +228,7 @@ function __wbg_get_imports() {
             const ret = arg0.readable;
             return ret;
         },
-        __wbg_readable_79715664798ffa9f: function(arg0) {
+        __wbg_readable_935e55334bf69b81: function(arg0) {
             const ret = arg0.readable;
             return ret;
         },
@@ -310,11 +310,11 @@ function __wbg_get_imports() {
             const ret = arg0.then(arg1);
             return ret;
         },
-        __wbg_writable_44735d15a1cee85d: function(arg0) {
+        __wbg_writable_43e1f5b83c8e6e7b: function(arg0) {
             const ret = arg0.writable;
             return ret;
         },
-        __wbg_writable_ef1583e29c52a7b5: function(arg0) {
+        __wbg_writable_44735d15a1cee85d: function(arg0) {
             const ret = arg0.writable;
             return ret;
         },
